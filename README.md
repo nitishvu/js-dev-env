@@ -103,3 +103,53 @@ File object attributes
 Reading and Writing files
 File Positions
 Directories in Python
+
+
+Sr. No.
+Topic
+Details of Coverage
+Duration (In Hrs.)
+Doc Reference, URLs, Books, etc.
+Training
+Hands-on
+1
+Python Scripting
+Functions & File I/O Advanced Constructs
+4
+4
+http://www.tutorialspoint.com/python/python_functions.htm
+http://www.tutorialspoint.com/python/python_files_io.htm
+
+2
+Python Modules
+Packages in Python
+http://www.tutorialspoint.com/python/python_modules.htm
+Locating Modules, Importing Modules
+Python PATH Variable, Namespaces and Scoping
+Reload, global & Local functions
+3
+Python Exceptions
+Handling Exceptions
+4
+4
+http://www.tutorialspoint.com/python/python_exceptions.htm
+The except clause with no exceptions,
+The except clause with multiple exceptions
+The try-finally clause
+Argument of an Exception
+Raising an exceptions
+User-Defined Exceptions
+4
+Python Classes and Objects
+Creating Classes
+Creating instance objects
+4
+4
+http://www.tutorialspoint.com/python/python_classes_objects.htm
+Accessing attributes
+Built-In Class Attributes
+Destroying Objects (Garbage Collection)
+Class Inheritance
+Overriding Methods
+Base Overloading Methods
+Data Hiding
