@@ -153,3 +153,17 @@ Class Inheritance
 Overriding Methods
 Base Overloading Methods
 Data Hiding
+
+
+
+
+
+
+
+
+https://www.priv.gc.ca/resource/fs-fi/02_05_d_51_cc_e.pdf 
+http://www.tutorialspoint.com/cloud_computing/cloud_computing_tutorial.pdf
+https://d0.awsstatic.com/whitepapers/aws-overview.pdf
+http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/awsgsg-intro.pdf
+http://aws.amazon.com/documentation/
+https://d0.awsstatic.com/whitepapers/cloud-migration-main.pdf
