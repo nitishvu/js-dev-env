@@ -1,0 +1,257 @@
+
+PYTHON L2 Exam -16/11/2016
+
+--> In python using index greater than minus one to access list , string , tuple will result to 
+		A. No error ,Last element will be accessed
+		B.IndexError
+		C.NameError.
+		D.OverFlowError
+
+--> --- can be used to wrap a function with another function 
+		A.Lambda
+		B.eval
+		C.Constructor
+		D.Decorators
+
+--> After function invokes ,it stores parameters and local variables in memory segment knowna as ___ ,which acts as Last in First out manner .
+	A.Heap
+	B.Storage Area
+	C.Stack
+	D.Array
+
+--> which built in function in python is used to find out names defined by module
+	A.dir()
+	B.def()
+	C.defn()
+	D.builtins()
+	
+-->Exceptions are handled by 
+	A.finally clause 
+	B.Except clause 
+	C.try-except-else clauses
+	D.none of the above
+
+--> Which file is important to generate python package 
+	A.__main__.py
+	B.__init__.py
+	C.__pkg__.py
+	D.No separate file is needed only package command is sufficient 
+	
+-->Module name in python has suffix
+	A) .pm
+	B) .pi
+	C) .py
+	D) .pl
+	
+-->Emp_data=["Rahul",65,78,84]
+	print Emp_data[:3]
+		
+-->Emp_data=["Rahul",65,78,84]
+	Emp_data[1]+=1
+	print Emp_data
+
+-->
+def foobar(a=30,b=40):
+a=30
+b=60
+x=10
+y=20
+foobar(x)print x,y
+	
+-->
+def foobar(a=30,b=40):
+	print a,b
+x=10
+y=20
+foobar(x,y)
+
+
+-->
+
+def main():
+	try:
+		f()
+		print "After Function f in try block"
+	except ZeroDivisionError:
+		print "Devided by zero"
+	except :
+		print "Exception"
+def f():
+	print (1/0)
+main()
+
+
+
+-->
+
+class Base:
+	nObj=0
+	def __init__(self):
+		Base.nObj+=1
+obj1=Base()
+obj1.nObj=20
+print Base.nobj
+
+
+-->
+
+class Base:
+	nObj=0
+	def __init__(self):
+		Base.nObj+=1
+obj1=Base()
+obj2=Base()
+obj3=Base()
+print obj1.nobj
+
+-->
+
+class Myclass:
+	a=1
+	b=2
+	def __init__(self):
+		pass
+	def setVal(self,x=3,y=4):
+		self.a=x
+		self.b=y
+	def getVal(self)
+		print "%d %d" %(self.a,self.b)
+obj1=Myclass()
+obj2=Myclass()
+Myclass.a=5
+Myclass.b=6
+obj1.setVal(7,8)
+obj2.getVal()
+
+
+-->
+#:::::::::Comp.py:::::::::
+
+class Motor(object):
+	pass
+class Wheel(object):
+	pass
+class Steering(object):
+	"The Steering Of vehicle used to control its direction"
+	pass
+	
+#:::::::::Vehicle.py:::::::::
+
+from Comp import *
+class Vehicle(Motor,Wheel,Steering):
+	"Vehicle consists of a Motor,wheels and a steering"
+	def __init__(self):
+		pass
+XXXXXX
+
+
+Q1: which code statement is used at XXXXXX to print the  "The Steering Of vehicle used to control its direction"
+
+	A) print Steering.__doc__
+	B) print Comp.Steering.__doc__
+	C) print Vehicle.Comp.Steering.__doc__
+	D) print Vehicle.Steering.__doc__
+	
+Q2:which code statement is used at XXXXXX to print the  "Vehicle consists of a Motor,wheels and a steering"
+
+	A) print Steering.__doc__
+	B) print Comp.Steering.__doc__
+	C) print Vehicle.Comp.Steering.__doc__
+	D) print Vehicle.__doc__
+
+		
+Q3:which code statement is used at XXXXXX to print all the classes name from which Vehicle class is derived
+
+	A) print Vehicle.__doc__
+	B) print Vehicle.__module__
+	C) print Vehicle.__bases__
+	D) print Vehicle.__dict__
+
+	
+	
+	
+#####################################################################################
+		
+		Previous Questions ::
+
+
+1. fseek(0,0)
+2. fh.name
+3. 
+#!/usr/bin/python
+
+try:
+	fh.open( testfile, w+)
+	fh.write("First exception line")
+Except:IOerror
+	print "file is written"
+else:
+	print "file not written"
+fh.close
+
+4. 
+def f1 ( x=1, y=2 ):
+	x=x+y
+	y+=1
+	print x, y
+
+f1(y=2,x=1) 
+
+5. How to differentiate two indices
+a ,
+b ;
+	c :
+d []
+
+6. Builtin functions for Multiple Inheritance
+ isinstance() & issubclass()
+
+7. 
+def f1:
+	x1 = input()
+	x2 = input()
+	x3 = input()
+	return ( x1, x2, x3 )
+
+semmark = f1 ( 72,68,70)
+
+print semmark
+
+Answer ((Output) tuple or individual)
+
+
+8. Inserting, modifying and deleting elements in List is possible or not?
+9. 
+def f1():
+	y = x+2
+	y = 1f1()
+	return
+10. print "Hello" 'world'
+11. How Python finds the type of variable?
+	based on value assigned
+12. How to enclose the single entity of string-> (), "", '', nota
+13. normal program for if and elif (nested)
+14. how to find a function in program? Ans: def
+
+
+-->In Python a String literal is enclosed in 
+	(A) Paranthesis (B ) Single quotes (C) Double Quotes (D) None of the above
+	
+-->How Do you Initialize base class from inherited class 
+		
+		class Basic:
+			def __init__(self,name):
+				self.name=name
+		class Special(Basic) :
+			def __init__(self,name,edible):
+				#initialization code for base
+				self.upper=name.upper
+				self.edible=edible
+				
+				
+	(A) Special(super,basic).__init__(self,name,edible)
+	(B)Super(Special,self).__init__(name,edible)
+	(c) Super(self).__init__(self,name)
+	
+
+	
